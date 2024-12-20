@@ -3,24 +3,7 @@ import React from 'react'
 function Form() {
   return (
     <div>
-      {/* <form>
-  <div classNameName="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" classNameName="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-    <small id="emailHelp" classNameName="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div classNameName="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" classNameName="form-control" id="exampleInputPassword1" placeholder="Password"/>
-  </div>
-  <div classNameName="form-check">
-    <input type="checkbox" classNameName="form-check-input" id="exampleCheck1"/>
-    <label classNameName="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" classNameName="btn btn-primary">Submit</button>
-</form> */}
- 
-
+     
 <form className="max-w-sm mx-auto">
   <div className="mb-5">
     <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
